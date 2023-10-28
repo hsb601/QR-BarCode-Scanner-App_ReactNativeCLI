@@ -1,3 +1,7 @@
+# Output
+
+https://github.com/hsb601/QR-BarCode-Scanner-App_ReactNativeCLI/assets/65144195/61eeb203-04e0-4f4e-9da8-b4e928eb2710
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
