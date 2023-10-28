@@ -40,7 +40,7 @@ screenOptions={{
                         display: 'flex',
                       },
                       headerStyle: {
-                        backgroundColor: '#460F07',
+                        backgroundColor: 'darkorange',
                       },
                       headerTintColor: 'white',
                       headerTitleAlign: 'center',

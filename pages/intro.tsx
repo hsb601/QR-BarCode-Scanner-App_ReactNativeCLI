@@ -21,7 +21,7 @@ return(
             </View>
 <View style={styles.centerizedView}>
           <View style={styles.Box}>
-            <Text style={styles.TitleText}>QR & BAR CODE SCANNER/Text>
+            <Text style={styles.TitleText}>QR & BAR CODE SCANNER </Text>
             <Text style={styles.SubText}>Scan The QR or Bar Code</Text>
             <Text style={styles.SubText}>Get  <Text style={styles.Para}>Link or Code</Text></Text>
             <TouchableOpacity style={styles.Button} onPress={() => navigation.navigate('Home')} >
@@ -61,8 +61,8 @@ height:360,
          display: 'flex-start',
          alignItems: 'center',
          justifyContent: 'center',
-          top: -31,
-             marginBottom: -370,
+            marginTop: 50,
+             marginBottom: -400,
            shadowColor: '#000',
              shadowOffset: {
                width: 0,
@@ -74,22 +74,22 @@ height:360,
 
   },
   TitleText: {
-    fontSize: 50,
+    fontSize: 40,
     fontWeight: 'bold',
     color:'darkorange',
     textAlign: 'center',
-
-    marginTop: 47,
+    marginTop: 55,
   },
   SubText: {
-      fontSize: 30,
+  marginTop: 10,
+      fontSize: 28,
       fontWeight: 'bold',
       color:'black',
       textAlign: 'center',
     },
   Button: {
     backgroundColor: 'darkorange',
-    marginTop: 50,
+    marginTop: 80,
     paddingVertical: 10,
     borderRadius: 4,
   },

@@ -70,6 +70,8 @@ const Home = ({ navigation }) => {
         {isScannerOpen && (
           <QRCodeScanner
             onRead={onSuccess}
+            reactivate={true}
+            reactivateTimeout={500}
             flashMode={isFlashOn ? RNCamera.Constants.FlashMode.torch : RNCamera.Constants.FlashMode.off}
             cameraStyle={styles.cameraStyle}
             topContent={
@@ -128,7 +130,7 @@ const Home = ({ navigation }) => {
                   onPress={() => {
                     setModalVisible(false);
                     setScannedData('');
-                    setScannerOpenTxt('Close Scanner 📷');
+
                   }}
                 >
                   <Text style={styles.modalCloseButtonText}>Close</Text>
@@ -186,6 +188,7 @@ container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+
 
   },
   toggleContainer: {
